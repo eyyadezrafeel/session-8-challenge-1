@@ -672,6 +672,7 @@ width: 180px;
   margin: 10px;
   padding: 10px;
   color: var(--text-color);
+  cursor: pointer;
  
 }
 .line6{
@@ -743,3 +744,136 @@ width: 180px;
   top:0.5 ;
   transform: translate(-50%, -50%);
 }
+/*media for 10th part*/
+@media screen and (max-width: 980px) {
+.tth-frow{
+  flex-direction: column;
+}
+.tth-srow{
+  flex-direction: column;
+}
+
+
+}
+/*11th part*/
+.el-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 150px 450px;
+}
+.el-part h1{
+  font-size: 55px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+
+}
+.line7{
+  height: 1px;
+  width: 70px;
+  border: 0.5px solid white;
+  margin: 25px 0 0 0;
+}
+.el-part p{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.el-part input{
+  width: 550px;
+  height: 50px;
+  padding: 10px;
+  font-size: medium;
+  border: none;
+  margin-top: 60px;
+}
+.el-part button{
+  width: 180px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.el-part button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.5s;
+  cursor: pointer;
+}
+/*12th part*/
+.tw-part{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+.tw-fcol{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding:40px 150px; ;
+
+}
+.tw-scol{
+  width: 50%;
+}
+.tw-fcol img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tw-fcol p{
+  font-size: 20px;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+.tw-fcol h1{
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.tw-scol{
+  width: 50%;
+}
+.line8{
+  height: 1px;
+  width: 50px;
+  border: 0.5px solid var(--text-color);
+  margin-bottom: 20px;
+}
+.line9{
+  height: 1px;
+  width: 400px;
+  border: 0.5px solid var(--text-color);
+  margin-bottom: 20px;
+}
+.text1{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 20px;
+}
+.plus{
+  font-size: 20px;
+  margin-right: 5px;
+  
+}
+/*media for 12th part*/
+@media screen and (max-width: 980px) {
+  .tw-part{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/*13th part*/
